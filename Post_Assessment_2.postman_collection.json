@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "46539e64-298f-480a-9e1b-d83490aea547",
+		"name": "Post_Assessment_2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25593751"
+	},
+	"item": [
+		{
+			"name": "client",
+			"item": [
+				{
+					"name": "Server Port",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9095/port",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9095",
+							"path": [
+								"port"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "server",
+			"item": [
+				{
+					"name": "Dev",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8888/sample/dev",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"sample",
+								"dev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UAT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8888/sample/uat",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"sample",
+								"uat"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
